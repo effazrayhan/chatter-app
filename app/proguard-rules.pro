@@ -1,1 +1,3 @@
-# Pulse-specific R8 rules will be added with the release hardening task.
+# Keep Room model metadata and Firebase service entry points discoverable in release builds.
+-keep class app.pulse.core.model.** { *; }
+-keep class app.pulse.push.** { *; }

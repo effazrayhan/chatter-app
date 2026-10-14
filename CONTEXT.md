@@ -32,7 +32,7 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [x] P7: implement groups and channels foundations.
 - [x] P8: implement push notification foundations.
 - [x] P9: implement settings and extras foundations.
-- [ ] P10: harden, document, and prepare release workflows.
+- [x] P10: harden, document, and prepare release workflows.
 - [ ] Update this file after each task and commit.
 
 ## Last verification

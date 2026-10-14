@@ -39,3 +39,9 @@
 
 1. Open Settings and Profile from the shell.
 2. Confirm text scale values are clamped to the supported range and language resources include Bangla.
+
+## P10 release checks
+
+1. Run the full Gradle check command.
+2. Build `dist/pulse-P10-debug.apk` and install it over P9 with `adb install -r`.
+3. Tag a commit as `v0.1.0` to exercise the release workflow after configuring signing secrets.
