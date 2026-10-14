@@ -11,6 +11,7 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [x] Run the required Gradle checks.
 - [x] Build `dist/pulse-P0-debug.apk`.
 - [x] Commit the completed pass.
+- [x] Push `master` to `origin` (`effazrayhan/chatter-app`).
 
 ## Decisions
 
@@ -22,8 +23,10 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 
 ## Next work
 
-- [ ] P1: implement Supabase migrations, RLS, RPCs, storage, realtime, and edge functions.
+- [x] P1: implement Supabase migrations, RLS, RPCs, storage, realtime, and edge functions.
 - [ ] P2: implement the Room, network, repository, sync, and outbox layers.
+- [ ] P3: implement auth and profile.
+- [ ] P4: implement the direct chat vertical slice.
 - [ ] Update this file after each task and commit.
 
 ## Last verification

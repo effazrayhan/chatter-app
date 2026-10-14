@@ -1,0 +1,2 @@
+-- Local development seed. Auth users are created by Supabase Auth in a running project.
+-- Insert demo rows after creating matching auth users in the local dashboard.
