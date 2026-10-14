@@ -82,6 +82,7 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.paging.runtime)
     implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.firebase.messaging)
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)

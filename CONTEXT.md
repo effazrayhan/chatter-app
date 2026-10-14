@@ -30,7 +30,7 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [x] P5: implement message actions and reactions.
 - [x] P6: implement media and upload foundations.
 - [x] P7: implement groups and channels foundations.
-- [ ] P8: implement push notification foundations.
+- [x] P8: implement push notification foundations.
 - [ ] P9: implement settings and extras foundations.
 - [ ] P10: harden, document, and prepare release workflows.
 - [ ] Update this file after each task and commit.
