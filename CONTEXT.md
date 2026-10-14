@@ -25,3 +25,10 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [ ] P1: implement Supabase migrations, RLS, RPCs, storage, realtime, and edge functions.
 - [ ] P2: implement the Room, network, repository, sync, and outbox layers.
 - [ ] Update this file after each task and commit.
+
+## Last verification
+
+- APK: `dist/pulse-P0-debug.apk`
+- Version: `0.P0.3` (`versionCode` 3)
+- SHA-256: `fd22f1c2c611b85562c682fe090813e90727bc247274b777a3627338cc614b86`
+- Checks: `./gradlew assembleDebug testDebugUnitTest lintDebug ktlintCheck`
