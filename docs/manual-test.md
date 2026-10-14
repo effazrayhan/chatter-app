@@ -29,3 +29,8 @@
 
 1. Exercise the media queue validation with a file under 50 MB and a file over 50 MB.
 2. Confirm oversized uploads are rejected before any network request.
+
+## P7 groups
+
+1. Verify `canPost` allows owners/admins in channels and keeps members read-only.
+2. Verify invite links use the `pulse://join/{code}` format.
