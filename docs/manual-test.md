@@ -34,3 +34,8 @@
 
 1. Verify `canPost` allows owners/admins in channels and keeps members read-only.
 2. Verify invite links use the `pulse://join/{code}` format.
+
+## P9 settings
+
+1. Open Settings and Profile from the shell.
+2. Confirm text scale values are clamped to the supported range and language resources include Bangla.
