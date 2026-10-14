@@ -24,7 +24,7 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 ## Next work
 
 - [x] P1: implement Supabase migrations, RLS, RPCs, storage, realtime, and edge functions.
-- [ ] P2: implement the Room, network, repository, sync, and outbox layers.
+- [x] P2: implement the Room, network, repository, sync, and outbox layers.
 - [ ] P3: implement auth and profile.
 - [ ] P4: implement the direct chat vertical slice.
 - [ ] Update this file after each task and commit.
