@@ -28,7 +28,5 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 
 ## Last verification
 
-- APK: `dist/pulse-P0-debug.apk`
-- Version: `0.P0.3` (`versionCode` 3)
-- SHA-256: `fd22f1c2c611b85562c682fe090813e90727bc247274b777a3627338cc614b86`
-- Checks: `./gradlew assembleDebug testDebugUnitTest lintDebug ktlintCheck`
+- The latest committed pass is verified with `./gradlew assembleDebug testDebugUnitTest lintDebug ktlintCheck` and `./scripts/build-apk.sh P0`.
+- Record exact APK metadata in the maintenance handoff or final report for each build.
