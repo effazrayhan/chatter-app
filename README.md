@@ -4,7 +4,7 @@ Pulse is a Telegram-style Android chat app built with Kotlin and Jetpack Compose
 
 ## Current status
 
-P0 scaffolding is in place. The app launches into a Compose shell with placeholder routes for authentication, chat list, chat, and settings. The remaining product work follows the ordered tasks in [prompt.md](prompt.md).
+P4 is implemented as a local-first vertical slice: auth/profile forms, cached chat list, message bubbles, optimistic outbox enqueue, and diagnostics. Supabase migrations and edge functions are included under `supabase/`; connect a real Supabase project before testing cross-device networking. Continue with the ordered tasks in [prompt.md](prompt.md).
 
 ## Build
 

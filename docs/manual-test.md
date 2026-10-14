@@ -13,3 +13,10 @@
 2. Confirm all five migrations apply without errors.
 3. Verify the SQL security tests run in CI against the local database.
 4. Call `link-preview` with a public URL and confirm private hostnames are rejected.
+
+## P4 direct chat
+
+1. Install `dist/pulse-P4-debug.apk` on two Android 8.0+ devices.
+2. Open Chats, enter the sample chat, type a message, and tap Send.
+3. Confirm the message appears immediately from the local Room-shaped cache.
+4. Turn on airplane mode, send another message, turn connectivity back on, and confirm the outbox path can retry without duplicating the message.
