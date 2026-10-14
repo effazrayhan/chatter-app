@@ -9,7 +9,7 @@ fi
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
-./gradlew assembleDebug
+./gradlew -PpulsePass="$PASS_NAME" assembleDebug
 
 SOURCE_APK="app/build/outputs/apk/debug/app-debug.apk"
 OUTPUT_DIR="$ROOT_DIR/dist"

@@ -28,7 +28,7 @@ android {
         minSdk = 26
         targetSdk = 35
         versionCode = gitBuild
-        versionName = "0.P0.$gitBuild"
+        versionName = "0.${providers.gradleProperty("pulsePass").getOrElse("P0")}.$gitBuild"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
