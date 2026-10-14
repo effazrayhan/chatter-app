@@ -20,3 +20,7 @@
 2. Open Chats, enter the sample chat, type a message, and tap Send.
 3. Confirm the message appears immediately from the local Room-shaped cache.
 4. Turn on airplane mode, send another message, turn connectivity back on, and confirm the outbox path can retry without duplicating the message.
+
+## P5 actions
+
+1. Exercise reply, edit, delete-for-everyone, reaction toggle, and in-memory message search through the chat action layer.

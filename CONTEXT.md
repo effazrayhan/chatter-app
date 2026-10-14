@@ -27,6 +27,12 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [x] P2: implement the Room, network, repository, sync, and outbox layers.
 - [x] P3: implement auth and profile.
 - [x] P4: implement the direct chat vertical slice.
+- [x] P5: implement message actions and reactions.
+- [ ] P6: implement media and upload foundations.
+- [ ] P7: implement groups and channels foundations.
+- [ ] P8: implement push notification foundations.
+- [ ] P9: implement settings and extras foundations.
+- [ ] P10: harden, document, and prepare release workflows.
 - [ ] Update this file after each task and commit.
 
 ## Last verification
