@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local services and credentials
+google-services.json
+*.jks
+*.keystore
+!app/debug.keystore
+
+# Generated APKs and reports
+dist/
+reports/
+
+# Supabase local state
+supabase/.temp/
+
+# OS files
+.DS_Store

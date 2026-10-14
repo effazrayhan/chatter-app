@@ -6,17 +6,19 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 
 - [x] Read `AGENTS.md`, `specs.md`, and `prompt.md`.
 - [x] Confirm the project lives at `/home/anando/Projects/chatter`.
-- [ ] Initialize the standalone Git repository named `chatter-app`.
-- [ ] Complete P0 Android scaffolding.
-- [ ] Run the required Gradle checks.
+- [x] Initialize the standalone Git repository named `chatter-app`.
+- [x] Complete P0 Android scaffolding.
+- [x] Run the required Gradle checks.
 - [ ] Build `dist/pulse-P0-debug.apk`.
-- [ ] Commit the completed pass.
+- [x] Commit the completed pass.
 
 ## Decisions
 
 - [x] Preserve package root `app.pulse` and application ID `app.pulse`.
 - [x] Start with one `app` module; add feature/core modules as later prompts require.
 - [x] Keep credentials in ignored `local.properties`.
+- [x] Keep the debug signing key at `app/debug.keystore` so APKs remain update-compatible.
+- [x] Defer Hilt code generation until the first generated dependency layer; the shell remains buildable.
 
 ## Next work
 
