@@ -34,5 +34,14 @@ elif command -v apkanalyzer >/dev/null 2>&1; then
   apkanalyzer manifest version-code "$OUTPUT_APK"
   apkanalyzer manifest version-name "$OUTPUT_APK"
 else
-  echo "Version metadata: use aapt2 or apkanalyzer to inspect the APK"
+  SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-$HOME/Android/Sdk}}"
+  AAPT2_PATH="$(find "$SDK_ROOT/build-tools" -type f -name aapt2 -perm -u+x 2>/dev/null | sort -V | tail -n1)"
+  if [[ -n "$AAPT2_PATH" ]]; then
+    BADGING_FILE="$(mktemp)"
+    "$AAPT2_PATH" dump badging "$OUTPUT_APK" > "$BADGING_FILE"
+    grep -m1 "package:" "$BADGING_FILE"
+    rm -f "$BADGING_FILE"
+  else
+    echo "Version metadata: use aapt2 or apkanalyzer to inspect the APK"
+  fi
 fi

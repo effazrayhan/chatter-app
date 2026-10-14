@@ -9,7 +9,7 @@ Use this file as the compact handoff record for the next maintenance pass. Keep 
 - [x] Initialize the standalone Git repository named `chatter-app`.
 - [x] Complete P0 Android scaffolding.
 - [x] Run the required Gradle checks.
-- [ ] Build `dist/pulse-P0-debug.apk`.
+- [x] Build `dist/pulse-P0-debug.apk`.
 - [x] Commit the completed pass.
 
 ## Decisions
