@@ -24,3 +24,8 @@
 ## P5 actions
 
 1. Exercise reply, edit, delete-for-everyone, reaction toggle, and in-memory message search through the chat action layer.
+
+## P6 media
+
+1. Exercise the media queue validation with a file under 50 MB and a file over 50 MB.
+2. Confirm oversized uploads are rejected before any network request.
